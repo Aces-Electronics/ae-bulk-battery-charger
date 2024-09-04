@@ -1,0 +1,2527 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "928c9726-a544-44d7-a3b8-4c7e1e9f09ee")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 141.986 94.488)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0af76881-7597-42fe-b899-5c66c40f55ae")
+	)
+	(junction
+		(at 141.986 87.884)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26ec5749-e375-4877-9768-9a2ae5b3e755")
+	)
+	(junction
+		(at 139.446 85.344)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "463d2537-a01b-4201-a6af-14c60c216e9d")
+	)
+	(junction
+		(at 141.986 100.838)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "478d0574-9142-4c3b-86ec-45f6f67708b9")
+	)
+	(junction
+		(at 139.446 104.902)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57aed006-b0e9-43eb-be08-60a16085a80e")
+	)
+	(junction
+		(at 141.986 120.396)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77914db0-f898-4726-be97-067203d1e449")
+	)
+	(junction
+		(at 139.446 91.948)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c7b4253-f23c-4589-889d-fafcfa981143")
+	)
+	(junction
+		(at 141.986 107.442)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8de0c019-6b6a-4461-89ec-1656ddf6f32d")
+	)
+	(junction
+		(at 139.446 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2d79f3d-95a4-4e00-9e8e-cb46cdce7c14")
+	)
+	(junction
+		(at 141.986 114.046)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b28574a0-67ab-45f5-904e-1602704bcb04")
+	)
+	(junction
+		(at 141.986 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5d0940f-aaf1-44b0-9b5d-ef6546b53cd8")
+	)
+	(junction
+		(at 139.446 117.856)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5c51af7-e313-4dc8-9878-f168010c4605")
+	)
+	(junction
+		(at 139.446 111.506)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0403439-5a5d-447d-b197-8b48fae2c474")
+	)
+	(junction
+		(at 139.446 98.298)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f338beba-150f-4c6e-9606-546e2e361983")
+	)
+	(wire
+		(pts
+			(xy 141.986 107.442) (xy 161.544 107.442)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0417d7b0-ffa3-4e0a-a018-59da3210d6c5")
+	)
+	(wire
+		(pts
+			(xy 161.544 120.396) (xy 141.986 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046750d5-66f1-457f-89da-3d67a6e8118c")
+	)
+	(wire
+		(pts
+			(xy 119.888 114.046) (xy 141.986 114.046)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0491910f-3bbc-43a4-bc5d-21be0dc8531c")
+	)
+	(wire
+		(pts
+			(xy 141.986 120.396) (xy 141.986 122.936)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07adf30f-641c-4eec-9811-a93266c37044")
+	)
+	(wire
+		(pts
+			(xy 139.446 78.74) (xy 139.446 85.344)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1bca67-829c-4bd9-8378-b1b045e2806e")
+	)
+	(wire
+		(pts
+			(xy 141.986 81.28) (xy 141.986 87.884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1194432e-3bbe-42fc-b46e-c5f356b58594")
+	)
+	(wire
+		(pts
+			(xy 141.986 120.396) (xy 119.888 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f80d21-3924-4dd6-a1e0-574f63ec98cc")
+	)
+	(wire
+		(pts
+			(xy 119.888 107.442) (xy 141.986 107.442)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256afc93-bab7-4937-b8c7-385ba9bf3e45")
+	)
+	(wire
+		(pts
+			(xy 161.29 87.884) (xy 141.986 87.884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5c5da3-77a1-4e3a-82d3-d1c0da1c907a")
+	)
+	(wire
+		(pts
+			(xy 139.446 104.902) (xy 161.544 104.902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3059769f-a6f1-4fce-866c-8d7be31f923f")
+	)
+	(wire
+		(pts
+			(xy 141.986 94.488) (xy 141.986 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "335e8ed2-ba69-42fb-816a-de545e1238a8")
+	)
+	(wire
+		(pts
+			(xy 120.142 87.884) (xy 141.986 87.884)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4086912d-8671-492a-8dec-67ba1c5377c9")
+	)
+	(wire
+		(pts
+			(xy 141.986 87.884) (xy 141.986 94.488)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4640949d-7373-4b45-bfce-0e21af362c14")
+	)
+	(wire
+		(pts
+			(xy 161.544 117.856) (xy 139.446 117.856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518190e0-9f6e-4114-8b56-3e30bc491e33")
+	)
+	(wire
+		(pts
+			(xy 119.888 117.856) (xy 139.446 117.856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571f4e3b-156a-4e70-8d2f-e6c9737d41be")
+	)
+	(wire
+		(pts
+			(xy 139.446 85.344) (xy 139.446 91.948)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62e9c6b6-4ff8-40de-a7ec-8dcdba0cc171")
+	)
+	(wire
+		(pts
+			(xy 141.986 72.898) (xy 141.986 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644f6238-e64f-4e98-bf72-b72862083c81")
+	)
+	(wire
+		(pts
+			(xy 139.446 85.344) (xy 161.29 85.344)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eedd533-44a3-4c0b-b988-0e7e30cc86be")
+	)
+	(wire
+		(pts
+			(xy 119.888 104.902) (xy 139.446 104.902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75246b5a-a7f5-44a4-8711-112b7d5a162e")
+	)
+	(wire
+		(pts
+			(xy 141.986 114.046) (xy 141.986 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae689cf-097d-4d04-91c7-b762f4510e2f")
+	)
+	(wire
+		(pts
+			(xy 120.142 98.298) (xy 139.446 98.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c33140f-f028-401c-bde9-7a1b221f1fc6")
+	)
+	(wire
+		(pts
+			(xy 119.888 111.506) (xy 139.446 111.506)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87437710-4331-4a25-8bdf-2164c9776460")
+	)
+	(wire
+		(pts
+			(xy 139.446 111.506) (xy 139.446 117.856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee845a4-6015-442e-8974-f09f14b759da")
+	)
+	(wire
+		(pts
+			(xy 120.142 85.344) (xy 139.446 85.344)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921cdd5b-7639-477f-871a-e055ef946765")
+	)
+	(wire
+		(pts
+			(xy 139.446 72.898) (xy 139.446 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9463df7d-3a66-4021-9b73-192e615d6846")
+	)
+	(wire
+		(pts
+			(xy 161.29 98.298) (xy 139.446 98.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96bf4e88-fe67-48ae-9e3c-ece893409c21")
+	)
+	(wire
+		(pts
+			(xy 120.396 81.28) (xy 141.986 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb460a8-5f06-4417-b1b6-cd2fc73c3305")
+	)
+	(wire
+		(pts
+			(xy 161.544 114.046) (xy 141.986 114.046)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe8cda2-bdf9-4203-aabb-73daa45cf509")
+	)
+	(wire
+		(pts
+			(xy 120.142 100.838) (xy 141.986 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ba3c8a-6559-407c-97b9-9ad36d404eb1")
+	)
+	(wire
+		(pts
+			(xy 139.446 117.856) (xy 139.446 122.936)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab87702d-cd4e-47a1-a6cd-3e67d3013442")
+	)
+	(wire
+		(pts
+			(xy 161.29 91.948) (xy 139.446 91.948)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf0b2b2-2d8e-4734-b686-fe635a40d473")
+	)
+	(wire
+		(pts
+			(xy 141.986 107.442) (xy 141.986 114.046)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b78f09-e964-447f-98ad-a749e301fdad")
+	)
+	(wire
+		(pts
+			(xy 141.986 100.838) (xy 141.986 107.442)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b678ca64-fd26-4803-b091-a7773d6fd0f2")
+	)
+	(wire
+		(pts
+			(xy 139.446 78.74) (xy 161.036 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc6f58cd-ffd6-4638-9c64-54d3712794c8")
+	)
+	(wire
+		(pts
+			(xy 139.446 78.74) (xy 120.396 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf773653-f258-420d-8b7c-6d80a4b642d4")
+	)
+	(wire
+		(pts
+			(xy 161.036 81.28) (xy 141.986 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a1c34d-782e-4f54-aeab-184c4c4d66d8")
+	)
+	(wire
+		(pts
+			(xy 120.142 94.488) (xy 141.986 94.488)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d938ec-a1a3-473c-bcd1-483a4db03e96")
+	)
+	(wire
+		(pts
+			(xy 141.986 94.488) (xy 161.29 94.488)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e4f505-9788-483f-9fa7-239f06f44189")
+	)
+	(wire
+		(pts
+			(xy 139.446 104.902) (xy 139.446 98.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc1155d-9f52-419c-8980-39fc26721a77")
+	)
+	(wire
+		(pts
+			(xy 120.142 91.948) (xy 139.446 91.948)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39f6577-0995-41ad-b95a-20926a551bc5")
+	)
+	(wire
+		(pts
+			(xy 141.986 100.838) (xy 161.29 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ace012-b1d4-4d5d-8ef8-f5c5f9d0a983")
+	)
+	(wire
+		(pts
+			(xy 139.446 111.506) (xy 139.446 104.902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc170b7d-1c52-439f-a83d-4b2ca31595c2")
+	)
+	(wire
+		(pts
+			(xy 139.446 111.506) (xy 161.544 111.506)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7db10d-c383-47b1-a03f-0c2a71060d1b")
+	)
+	(wire
+		(pts
+			(xy 139.446 91.948) (xy 139.446 98.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f618564d-f525-4df9-8e40-4fa27a73bc1a")
+	)
+	(image
+		(at 230.886 174.244)
+		(scale 0.424068)
+		(uuid "e7ca5689-1bea-4929-9964-9b9a23c60e3f")
+		(data "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"
+			"TkSuQmCC"
+		)
+	)
+	(text "Battery"
+		(exclude_from_sim no)
+		(at 134.874 133.096 0)
+		(effects
+			(font
+				(size 2.2 2.2)
+				(thickness 0.44)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "429f2dc5-ae47-4a40-a8c5-5334d31f99ea")
+	)
+	(text "Charger"
+		(exclude_from_sim no)
+		(at 133.604 64.262 0)
+		(effects
+			(font
+				(size 2.2 2.2)
+				(thickness 0.44)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ad53ea7-45b4-4442-9c48-1d33d5f81b8f")
+	)
+	(text "Batteries"
+		(exclude_from_sim no)
+		(at 108.204 104.14 90)
+		(effects
+			(font
+				(size 2.2 2.2)
+				(thickness 0.44)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebb9652a-cc72-4148-86f2-915748ba4c91")
+	)
+	(text "Batteries"
+		(exclude_from_sim no)
+		(at 174.752 89.154 90)
+		(effects
+			(font
+				(size 2.2 2.2)
+				(thickness 0.44)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2e0aad3-f2de-45ee-9d0a-cb37622e2596")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 141.986 128.016 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04fbf131-fd77-43aa-9fe8-a458e2062891")
+		(property "Reference" "J2"
+			(at 144.018 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 124.968 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 141.986 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.986 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 141.986 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 141.986 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4034d86a-acb8-4d2f-8a7b-ecc2d387ca54")
+		)
+		(pin "2"
+			(uuid "10a8c806-414c-497a-9b92-ddad5cead0b0")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 166.624 114.046 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "086a1929-21bf-4dbc-9b1a-b03e47a2711b")
+		(property "Reference" "J14"
+			(at 166.624 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 161.798 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 166.624 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.624 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.624 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 166.624 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7891ecd4-0782-4383-bbda-abad3cc34192")
+		)
+		(pin "2"
+			(uuid "1c8ee6b5-ea2f-4bd8-97fe-b72246682544")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 114.808 114.046 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10221926-f807-4163-9966-2f5afac1b2dd")
+		(property "Reference" "J13"
+			(at 114.808 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 119.634 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 114.808 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.808 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.808 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 114.808 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb919eb7-760c-470d-bd3c-64846da43fe4")
+		)
+		(pin "2"
+			(uuid "2a45c5e7-ea12-457d-aaea-93e31ea597cc")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 114.808 107.442 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1255f76b-3a4d-46a6-9a29-6831aac61cef")
+		(property "Reference" "J11"
+			(at 114.808 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 119.634 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 114.808 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.808 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.808 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 114.808 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e51ee27f-070b-4c3a-98b4-9178da8e54ae")
+		)
+		(pin "2"
+			(uuid "6e3abb6e-c766-41fe-90af-2a4e2f8802c9")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 115.062 87.884 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "249a542d-9fa8-4e47-84d2-740886d80d0d")
+		(property "Reference" "J5"
+			(at 115.062 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 119.888 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 115.062 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.062 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.062 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 115.062 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79ebba41-9b24-4a3d-90ec-3cda91a72adf")
+		)
+		(pin "2"
+			(uuid "2d9e2cc0-9e4f-4d38-848b-17979c0e5d7e")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 166.624 107.442 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2afb2f63-7ffd-4dec-805a-8fc895befc6e")
+		(property "Reference" "J12"
+			(at 166.624 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 161.798 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 166.624 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.624 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.624 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 166.624 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90ea37c3-9607-476d-8c60-f77015f26aa2")
+		)
+		(pin "2"
+			(uuid "777a0408-ea68-4dce-86d1-5db98ff4260d")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 166.37 100.838 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b33076d-1236-4441-ab63-8fb30b68aff8")
+		(property "Reference" "J10"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 161.544 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 166.37 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 166.37 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a942205-4102-412c-9b24-332d06ef3985")
+		)
+		(pin "2"
+			(uuid "31627f2c-1785-4ef6-bbd0-de250fa994aa")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 280.67 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2caf9694-64e6-426d-98f7-713f85723b06")
+		(property "Reference" "H3"
+			(at 283.21 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 283.21 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 280.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 280.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 114.808 120.396 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31651c4b-7f37-46df-83e3-5f858b68abd6")
+		(property "Reference" "J15"
+			(at 114.808 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 119.634 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 114.808 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.808 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.808 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 114.808 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a1ac9f5-9140-482f-897b-f72bb9de5735")
+		)
+		(pin "2"
+			(uuid "67dbe1d3-3540-4040-a19f-b5988246939d")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 141.986 67.818 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "361f6ccc-cf67-41d3-990b-375aa9e08225")
+		(property "Reference" "J1"
+			(at 137.668 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 132.461 69.723 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+			(at 141.986 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.986 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 141.986 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C428722"
+			(at 141.986 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4fedb97-76f5-4851-8cfc-0df715fc4a5b")
+		)
+		(pin "2"
+			(uuid "ce7394ec-d9be-41f5-a44f-aa10d5f98527")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 166.37 87.884 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6012f4ad-f76c-4657-8336-bb62d382557c")
+		(property "Reference" "J6"
+			(at 166.37 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 161.544 70.866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 166.37 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 166.37 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59584e70-b60c-430a-8d71-45a35a955cfb")
+		)
+		(pin "2"
+			(uuid "261a5946-c883-4876-8d60-0bf0287822f7")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 14.986 16.764 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "728f2063-45b1-4190-a46e-febeb63cf0a2")
+		(property "Reference" "H2"
+			(at 17.526 16.129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 17.526 18.669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 14.986 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 14.986 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 14.986 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 14.986 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 115.316 81.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89a794e7-471b-463c-a1db-3d4603532256")
+		(property "Reference" "J3"
+			(at 115.316 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 120.142 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 115.316 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.316 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.316 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 115.316 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfcf2d76-5dcf-44ee-8702-5dae109697c5")
+		)
+		(pin "2"
+			(uuid "d7696e09-2df2-49b1-8aff-0d3d3b8dcc0c")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 115.062 100.838 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fd52183-efae-4789-b8ee-c49437b4ace7")
+		(property "Reference" "J9"
+			(at 115.062 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 119.888 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 115.062 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.062 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.062 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 115.062 100.838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dc88593-eebd-40ea-9f64-8290b4cc6665")
+		)
+		(pin "2"
+			(uuid "461e4551-0323-4bcb-8a11-8eee02eda9b2")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 166.624 120.396 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7eaf701-5dd1-4000-a6da-f083a030f49b")
+		(property "Reference" "J16"
+			(at 166.624 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 161.798 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 166.624 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.624 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.624 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 166.624 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19eeeaa8-3980-4fce-9154-aee9f7f1d588")
+		)
+		(pin "2"
+			(uuid "a28ef5f7-53de-498c-8cff-c3e450cf6429")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 282.448 13.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc713f90-c8ea-4614-bc2b-c3aea42c2115")
+		(property "Reference" "H1"
+			(at 284.988 13.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 284.988 15.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 282.448 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 282.448 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 282.448 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 282.448 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 14.732 178.054 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf278ec9-41d4-4db1-885a-d2672099556e")
+		(property "Reference" "H4"
+			(at 17.272 177.419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 17.272 179.959 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 14.732 178.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 14.732 178.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 14.732 178.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" ""
+			(at 14.732 178.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 166.116 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2f8c1ac-8dfa-42bc-a8da-c3da1c4040a4")
+		(property "Reference" "J4"
+			(at 166.116 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 161.29 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 166.116 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.116 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.116 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 166.116 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dab069ca-f0b4-4130-bfd2-df975e30a387")
+		)
+		(pin "2"
+			(uuid "255e4354-78f6-4cff-a445-ef3e3f15ea87")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 115.062 94.488 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df4563ae-7f08-454e-ab04-e90b080351f0")
+		(property "Reference" "J7"
+			(at 115.062 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 119.888 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 115.062 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.062 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.062 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 115.062 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c731a64-0c7f-4eaa-892e-ac4856c4aa64")
+		)
+		(pin "2"
+			(uuid "3efd76f1-0d64-4d75-aeb0-d734ac817417")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 166.37 94.488 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec5d65dc-87e8-4075-b5ec-3961731820e3")
+		(property "Reference" "J8"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 161.544 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Acea:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
+			(at 166.37 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "lcsc" "C98732"
+			(at 166.37 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb87b7a7-4f23-4f99-b75e-640e2e4b8aff")
+		)
+		(pin "2"
+			(uuid "34def8f6-e924-46ad-ad97-561cb77a0d33")
+		)
+		(instances
+			(project "ae-bbc-pcb"
+				(path "/928c9726-a544-44d7-a3b8-4c7e1e9f09ee"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
