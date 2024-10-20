@@ -1,5 +1,5 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-J1,Conn_01x02_Pin,AMASS_XT60PW-M_1x02_P7.20mm_Horizontal,140.865,-142.24,90.0,top
+J1,Conn_01x02_Pin,AMASS_XT60PW-F_1x02_P7.20mm_Horizontal,140.847434,-142.239999,90.0,top
 J2,Conn_01x02_Pin,AMASS_XT30PW-M_1x02_P2.50mm_Horizontal,264.23,-142.24,-90.0,top
 J3,Conn_01x02_Pin,AMASS_XT30PW-M_1x02_P2.50mm_Horizontal,142.652225,-167.055159,180.0,top
 J4,Conn_01x02_Pin,AMASS_XT30PW-M_1x02_P2.50mm_Horizontal,142.704896,-116.991755,0.0,top
